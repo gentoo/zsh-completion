@@ -1,15 +1,15 @@
 certificate version 0.1
-pusher mva@gentoo.org 1582138271 +0700
+pusher mva@gentoo.org 1600053183 +0700
 pushee git.gentoo.org:proj/zsh-completion
-nonce 1582138271-794a18ce7c43dfb906268db90457cb131028f4af
+nonce 1600053183-0666f0e7b5d2909fed0071d2135c2643db520030
 
-b33fbd445ab0014be633d8935ec08d1799900448 8a1dcc8e862e1ca00fec39f921bcd2d9cf55c0e7 refs/heads/master
+8a1dcc8e862e1ca00fec39f921bcd2d9cf55c0e7 fbcf9c63d44f1d1cb5e57839bd4afe3cc90ffcf0 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iOUEABYKAI0WIQQoxRjgXYBWtXJOpb/NsmC0G8NikgUCXk2Dn18UgAAAAAAuAChp
+iOUEABYKAI0WIQQoxRjgXYBWtXJOpb/NsmC0G8NikgUCX17fv18UgAAAAAAuAChp
 c3N1ZXItZnByQG5vdGF0aW9ucy5vcGVucGdwLmZpZnRoaG9yc2VtYW4ubmV0MjhD
 NTE4RTA1RDgwNTZCNTcyNEVBNUJGQ0RCMjYwQjQxQkMzNjI5Mg8cbXZhQGdlbnRv
-by5vcmcACgkQzbJgtBvDYpKUmgD6AnAOJl24ydf+cW5v1eAq6/rpWhI+rTzqa+Gz
-N23bzjgA+wVwB6DTolt/FSGA0FiakG9PIGgL2V8tDiOWF8XLXt4G
-=+6wE
+by5vcmcACgkQzbJgtBvDYpKWWAD+OZE0r9kc0jDw0fJ2ugXDVz3xFimjjnwv3UEK
+Npgo27YBANRbuRI9xtgi5/3j6ac11EVsoh7BBavzbm8CvA5IdOQH
+=XX41
 -----END PGP SIGNATURE-----
