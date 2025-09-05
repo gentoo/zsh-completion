@@ -169,6 +169,7 @@ _gentoo_packages_update_available(){
   else
     compset -P '*/'
     pkg=($repos/$IPREFIX/*(:t))
+    pkg=(${pkg:#metadata.xml})
     _wanted cat_packages expl 'category/package' compadd $pkg
   fi
 }
