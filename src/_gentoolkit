@@ -166,9 +166,10 @@ _equery () {
               ;;
             uses|u)
               _arguments \
-                '(-a --all)'{-a,--all}'[include non-installed packages]' \
-                '(-i --ignore-linguas)'{-i,--ignore-linguas}"[don't show linguas USE flags]" \
-                ":portage:_packages installed" && ret=0
+                '(-a --all)'{-a,--all}'[display all package versions]' \
+                '(-f --force-masked)'{-f,--force-masked}'[show the forced and masked USE flags]' \
+                '(-i --ignore-l10n)'{-i,--ignore-l10n}'[don't show l10n USE flags]' \
+                ':portage:_packages available' && ret=0
               ;;
             which|w)
               _arguments \
