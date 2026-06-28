@@ -171,7 +171,7 @@ _equery () {
               _arguments \
                 '(-a --all)'{-a,--all}'[display all package versions]' \
                 '(-f --force-masked)'{-f,--force-masked}'[show the forced and masked USE flags]' \
-                '(-i --ignore-l10n)'{-i,--ignore-l10n}'[don't show l10n USE flags]' \
+                '(-i --ignore-l10n)'{-i,--ignore-l10n}"[don't show l10n USE flags]" \
                 ':portage:_packages available' && ret=0
               ;;
             which|w)
