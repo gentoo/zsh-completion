@@ -135,6 +135,9 @@ _equery () {
                 '(-F --format)'{-F,--format}'[specify a custom output format]:format template' \
                 ':useflag:_gentoo_packages useflag' && ret=0
               ;;
+            keywords|y)
+              _eshowkw && ret=0
+              ;;
             list|l)
               _arguments \
                 $common_args \
