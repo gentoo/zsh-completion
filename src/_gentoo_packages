@@ -106,8 +106,6 @@ _gentoo_packages_update_active_useflag(){
   var=USE
   [[ -z ${(P)var} && -r ${EPREFIX}/etc/portage/make.conf ]] &&
     local $var="$(. ${EPREFIX}/etc/portage/make.conf 2>/dev/null; echo ${(P)var})"
-  [[ -z ${(P)var} && -r ${EPREFIX}/etc/make.conf ]] &&
-    local $var="$(. ${EPREFIX}/etc/make.conf 2>/dev/null; echo ${(P)var})"
   flags=(${${${=USE}%-*}%\\*})
   compadd $flags
 }
@@ -199,8 +197,6 @@ _gentoo_packages_update_binary() {
 
   [[ -z $PKGDIR && -r ${EPREFIX}/etc/portage/make.conf ]] &&
     PKGDIR="$(. ${EPREFIX}/etc/portage/make.conf 2>/dev/null; echo $PKGDIR)"
-  [[ -z $PKGDIR && -r ${EPREFIX}/etc/make.conf ]] &&
-    PKGDIR="$(. ${EPREFIX}/etc/make.conf 2>/dev/null; echo $PKGDIR)"
   [[ -z $PKGDIR && -r ${EPREFIX}/usr/share/portage/config/make.globals ]] &&
     PKGDIR="$(. ${EPREFIX}/usr/share/portage/config/make.globals 2>/dev/null; echo $PKGDIR)"
 
