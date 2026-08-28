@@ -31,7 +31,7 @@ _ebuild () {
         'preinst[Run specific actions that need to be done before installation]'
         'install[Installs the package to the temporary install directory]'
         'postinst[Run specific actions that need to be done after installation]'
-        'qmerge[Installs the package de the filesystem]'
+        'qmerge[Installs the package to the filesystem]'
         'merge[perform the following actions: fetch, unpack, compile, install and qmerge]'
         'unmerge[Remove the installed files of the packages]'
         'prerm[Run specific actions that need to be executed before unmerge]'
